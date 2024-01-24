@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testspec lysniewskid - Kanbanboard </title>
+<link type="text/css" rel="stylesheet" href="http://www.testowo.pl/testlink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width= height= src="http://www.testowo.pl/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Specyfikacja testowa</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Projekt testowy: lysniewskid<br/>Zestaw testów: lysniewskid - Kanbanboard </p></div>
+<div class="summary"><p id="printedby">Wydrukowany przez TestLink dnia 18.01.2024</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Spis treści</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.Kanbanboard </a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc86628">DL-15: Dodawanie/usuwanie tasków do kolumn</a></p><p style="padding-left: 45px;"><a href="#toc_tc86650">DL-20: Edytowanie nazwy kolumn</a></p><p style="padding-left: 45px;"><a href="#toc_tc86619">DL-13: Dodawanie/usuwanie nowych kolumn</a></p><p style="padding-left: 45px;"><a href="#toc_tc86623">DL-14: Znaki specjalne w kolumnach</a></p><p style="padding-left: 45px;"><a href="#toc_tc86657">DL-21: Maksymalna ilość kolumn</a></p><p style="padding-left: 45px;"><a href="#toc_tc86660">DL-22: Maksymalna ilość znaków w kolumnie</a></p><p style="padding-left: 45px;"><a href="#toc_tc86663">DL-23: Kombinacje dużych i małych liter w kolumnach</a></p><p style="padding-left: 45px;"><a href="#toc_tc86666">DL-24: Znaki specjalne w taskach</a></p><p style="padding-left: 45px;"><a href="#toc_tc86670">DL-25: Kombinacje dużych i małych liter w taskach</a></p><p style="padding-left: 45px;"><a href="#toc_tc86673">DL-26: Maksymalna ilość tasków w kolumnie</a></p><p style="padding-left: 45px;"><a href="#toc_tc86677">DL-27: Rozstawianie wielu tasków po dużej ilości kolumn</a></p><p style="padding-left: 45px;"><a href="#toc_tc86683">DL-28: Maksymalna ilość znaków w tasku</a></p><p style="padding-left: 45px;"><a href="#toc_tc86687">DL-29: Drag&amp;drop</a></p><p style="padding-left: 45px;"><a href="#toc_tc86692">DL-30: Wyciąganie taska poza kolumne</a></p><p style="padding-left: 45px;"><a href="#toc_tc86697">DL-31: Nachodzące na siebie taski</a></p></div><a name='toc_1'></a>
+<h1 class='doclevel'>1.Zestaw testów : Kanbanboard </h1>
+<div><p>Przypadki testowe dla aplikacji https://kanbanboard.pl/</p>
+</div><a name="toc_tc86628"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy DL-15: Dodawanie/usuwanie tasków do kolumn&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">lysniewskid</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzanie czy aplikacja poprawnie dodaje taski do kolumn oraz usuwa je.</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>Strona https://kanbanboard.pl/ jest otwarta</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>W dowolnej kolumnie klikamy &quot;ADD TASK&quot; nadając mu przykładową nazwę np &quot;abc&quot;</p>
+</td><td><p>Aplikacja tworzy taska w kolumnie</p>
+</td></tr><tr><td width="5">2</td><td><p>Po utworzeniu taska usuwamy go</p>
+</td><td><p>Aplikacja usuwa taska</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Relacje</span></td><td>jest dzieckiem - DL-26:Maksymalna ilość tasków w kolumnie &nbsp;[Wersja:1]</td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc86650"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy DL-20: Edytowanie nazwy kolumn&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">lysniewskid</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzenie czy aplikacja pozwala edytować nazwę kolumny po jej utworzeniu</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>Strona https://kanbanboard.pl/ jest otwarta</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>W dowolnej kolumnie klikamy &quot;ADD NEW COLUMN&quot; i nadajemy jej przykładową nazwę np.abc</p>
+</td><td></td></tr><tr><td width="5">2</td><td><p>Po utworzeniu kolumny pr&oacute;bujemy edytować jego nazwę klikając w nią</p>
+</td><td><p>Aplikacja pozwala na edycje nazw kolumn</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Relacje</span></td><td>jest dzieckiem - DL-13:Dodawanie/usuwanie nowych kolumn &nbsp;[Wersja:1]</td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc86619"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy DL-13: Dodawanie/usuwanie nowych kolumn&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">lysniewskid</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzenie podstawowych funkcji kolumn w aplikacji Kanbanboard dodawanie/usuwanie kolumny</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>Strona https://kanbanboard.pl/ jest otwarta</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Na stronie gł&oacute;wnej aplikacji klikamy &quot;ADD NEW COLUMN&quot; wpisując przykładową nazwę np.abc</p>
+</td><td><p>Aplikacja tworzy nową kolumnę z wpisanym przez nas tytułem kolumny</p>
+</td></tr><tr><td width="5">2</td><td><p>Klikamy na krzyżyk w prawym g&oacute;rnym rogu przy kolumnie</p>
+</td><td><p>Aplikacja usuwa kolumnę</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Relacje</span></td><td>jest dzieckiem - DL-20:Edytowanie nazwy kolumn &nbsp;[Wersja:1]jest dzieckiem - DL-21:Maksymalna ilość kolumn &nbsp;[Wersja:1]jest dzieckiem - DL-14:Znaki specjalne w kolumnach &nbsp;[Wersja:1]jest dzieckiem - DL-22:Maksymalna ilość znaków w kolumnie &nbsp;[Wersja:1]</td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc86623"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy DL-14: Znaki specjalne w kolumnach&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">lysniewskid</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzanie czy aplikacja reaguje pozytywnie na r&oacute;żne warianty znak&oacute;w w tytułach kolumn</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>Otwarta strona https://kanbanboard.pl/</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Klikamy &quot;ADD NEW COLUMN&quot; wpisując tytuł używamy samych znak&oacute;w&nbsp; specjalnych np.@@@!!!!</p>
+</td><td><p>Aplikacja nie ma problem&oacute;w z tworzeniem task&oacute;w ze znakami specjalnymi</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Relacje</span></td><td>jest powiązany z - DL-26:Maksymalna ilość tasków w kolumnie &nbsp;[Wersja:1]jest dzieckiem - DL-13:Dodawanie/usuwanie nowych kolumn &nbsp;[Wersja:1]jest powiązany z - DL-23:Kombinacje dużych i małych liter w kolumnach &nbsp;[Wersja:1]</td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc86657"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy DL-21: Maksymalna ilość kolumn&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">lysniewskid</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzanie czy aplikacja radzi sobię z duża ilością dodanych kolumn na raz nie tracąc na płynności oraz responsywności</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><table>
+	<tbody>
+		<tr>
+			<td>
+			<p>&nbsp;</p>
+			</td>
+			<td>Strona https://kanbanboard.pl/ jest otwarta</td>
+		</tr>
+	</tbody>
+</table>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Klikamy &quot;ADD NEW COLUMN&quot; i dodajemy kilkanaście/kilkadziesiąt task&oacute;w na stronie</p>
+</td><td><p>Aplikacja pozwala na stworzenie zadowalającej dla użytkownika ilości task&oacute;w pozostając czytelną i nie tracąc na płynności oraz responsywności</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Relacje</span></td><td>jest dzieckiem - DL-13:Dodawanie/usuwanie nowych kolumn &nbsp;[Wersja:1]</td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc86660"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy DL-22: Maksymalna ilość znaków w kolumnie&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">lysniewskid</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzanie responsywności aplikacji na kolumny o długich nazwach</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>Strona https://kanbanboard.pl/ jest otwarta</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Klikamy &quot;ADD NEW COLUMN&quot; wpisując tytuł używamy maksymalnej liczby dostępnych znak&oacute;w np.!!!!!!!!!(do końca wolnego miejsca w polu )</p>
+</td><td><p>Aplikacja pozwala na tworzenie długich ciąg&oacute;w znak&oacute;w nie wychodząc nimi z tabeli bądź nie ucinając długości znak&oacute;w jak i nie tracąc na responsywności oraz płynności</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Relacje</span></td><td>jest dzieckiem - DL-13:Dodawanie/usuwanie nowych kolumn &nbsp;[Wersja:1]</td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc86663"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy DL-23: Kombinacje dużych i małych liter w kolumnach&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">lysniewskid</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzanie czy kolumny poprawnie odczytują ciąg znak&oacute;w małych i dużych liter</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>Strona https://kanbanboard.pl/ jest otwarta</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p><br />
+Klikamy &quot;ADD NEW COLUMN&quot; wpisując tytuł używamy ciągu liter dużych oraz małcyh np.ABCDabcd</p>
+</td><td><p>Aplikacja nie ma problem&oacute;w z tworzeniem task&oacute;w z r&oacute;żnymi ciągami liter</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Relacje</span></td><td>jest powiązany z - DL-26:Maksymalna ilość tasków w kolumnie &nbsp;[Wersja:1]jest powiązany z - DL-14:Znaki specjalne w kolumnach &nbsp;[Wersja:1]</td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc86666"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy DL-24: Znaki specjalne w taskach&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">lysniewskid</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzanie czy utworzone taski poprawnie odczytują wczytują znaki specjalne</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>Strona https://kanbanboard.pl/ jest otwarta</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Klikamy w dowolnej kolumnie ADD TASK</p>
+</td><td></td></tr><tr><td width="5">2</td><td><p>W nazwie taska wpisujemy znaki specjalne np.!!!@@@###</p>
+</td><td><p>Aplikacja poprawnie odczytuje znaki specjalne</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Relacje</span></td><td>jest powiązany z - DL-28:Maksymalna ilość znaków w tasku &nbsp;[Wersja:1]jest powiązany z - DL-25:Kombinacje dużych i małych liter w taskach &nbsp;[Wersja:1]</td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc86670"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy DL-25: Kombinacje dużych i małych liter w taskach&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">lysniewskid</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzanie czy utworzone taski poprawnie odczytują ciąg małych oraz dużych liter</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>Strona https://kanbanboard.pl/ jest otwarta</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Klikamy w dowolnej kolumnie na ADD TASK oraz wpisujemy ciąg liter dużych oraz małych np.AAABBBDdadad</p>
+</td><td><p>Taski poprawnie wczytują ciąg r&oacute;żnych liter</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Relacje</span></td><td>jest powiązany z - DL-28:Maksymalna ilość znaków w tasku &nbsp;[Wersja:1]jest powiązany z - DL-24:Znaki specjalne w taskach &nbsp;[Wersja:1]</td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc86673"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy DL-26: Maksymalna ilość tasków w kolumnie&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">lysniewskid</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzenie jak aplikacja radzi sobie z dodaniem wielu task&oacute;w w jednej kolumnie</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>Strona https://kanbanboard.pl/ jes otwarta</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Po utworzeniu dowolnej kolumny klima ADD Task oraz dodajemy kilkanaście/kilkadziesisąt task&oacute;w do jednej kolumny (jak najwięcej)</p>
+</td><td><p>Aplikacja tworzy dużą ilość task&oacute;w bez utraty na czytelności responsywności oraz płynności</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Relacje</span></td><td>jest powiązany z - DL-14:Znaki specjalne w kolumnach &nbsp;[Wersja:1]jest powiązany z - DL-23:Kombinacje dużych i małych liter w kolumnach &nbsp;[Wersja:1]jest dzieckiem - DL-15:Dodawanie/usuwanie tasków do kolumn &nbsp;[Wersja:1]</td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc86677"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy DL-27: Rozstawianie wielu tasków po dużej ilości kolumn&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">lysniewskid</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzanie czy aplikacja radzi sobie z dużą ilością task&oacute;w rozstawioną po wielu kolumnach nie tracąc przy tym na czytelności płynności oraz responsywności</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>Strona https://kanbanboard.pl/ jest otwarta</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Tworzymy kilka/kilkanaście kolumn<br />
+&nbsp;</p>
+</td><td></td></tr><tr><td width="5">2</td><td><p>Tworzymy w jednej kolumnie kilkanaście task&oacute;w</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Rozstawiamy je losowo po kolumnach</p>
+</td><td><p>Aplikacja pozostaje czytelna oraz nie traci na płynności</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Relacje</span></td><td>jest powiązany z - DL-29:Drag&amp;drop &nbsp;[Wersja:1]</td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc86683"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy DL-28: Maksymalna ilość znaków w tasku&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">lysniewskid</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzenie czy utworzone taski poprawnie wyświetlają dużą ilość znak&oacute;w</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>Strona https://kanbanboard.pl/ jest otwarta</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Tworzymy nowy task ADD TASK</p>
+</td><td></td></tr><tr><td width="5">2</td><td><p>Dodajemy jak największą ilośc znak&oacute;w do taska (wypełnić całe dostępne pole)</p>
+</td><td><p>Aplikacja poprawnie wyświetla nazwę taska nie wychodząc znakami z ramki bądź stosownie skraca nazwę</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Relacje</span></td><td>jest powiązany z - DL-24:Znaki specjalne w taskach &nbsp;[Wersja:1]jest powiązany z - DL-25:Kombinacje dużych i małych liter w taskach &nbsp;[Wersja:1]</td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc86687"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy DL-29: Drag&amp;drop&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">lysniewskid</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Funkcja Drag&amp;drop pomiędzy taskami działa responsywnie dla użytkownika</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>Strona https://kanbanboard.pl/</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Tworzymy dowolną kolumnych kilka kolumn klikając ADD NEW COLUMN</p>
+</td><td></td></tr><tr><td width="5">2</td><td><p>Dodajemy taska klikając ADD TASK</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Przesuwamy taskiem po r&oacute;żnych kolumnach</p>
+</td><td><p>Aplikacja poprawnie przesuwa taski pomiędzy kolumnami</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Relacje</span></td><td>jest powiązany z - DL-27:Rozstawianie wielu tasków po dużej ilości kolumn &nbsp;[Wersja:1]jest dzieckiem - DL-30:Wyciąganie taska poza kolumne &nbsp;[Wersja:1]</td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc86692"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy DL-30: Wyciąganie taska poza kolumne&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">lysniewskid</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzanie czy aplikacja poprawnie reaguje na wyciągnięcie taska metodą drag&amp;drop poza linie kolumny</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>Strona https://kanbanboard.pl/ jest otwarta</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Tworzymy dowolną kolumnę ADD COLUMN</p>
+</td><td></td></tr><tr><td width="5">2</td><td><p>Tworzymy dowolnego taska ADD TASK</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Przeciągamy myszką taska poza ramy kolumny</p>
+</td><td><p>Task wraca na swoje miejsce bądź do najbliższej kolumny</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Relacje</span></td><td>jest dzieckiem - DL-29:Drag&amp;drop &nbsp;[Wersja:1]</td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc86697"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy DL-31: Nachodzące na siebie taski&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">lysniewskid</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzanie jak reaguje aplikacja na najechanie taskiem na innego taska</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>Strona https://kanbanboard.pl/ jest otwarta</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>W dw&oacute;ch oddzielnych kolumnach(ADD COLUMN) dodajemy dwa r&oacute;żne taski (ADD TASK)</p>
+</td><td></td></tr><tr><td width="5">2</td><td><p>Metodą drag&amp;drop najeżdzamy jednym taskiem na drugi</p>
+</td><td><p>Aplikacja powraca taskiem na miejsce bądź zamienia je miejscami</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+
+</body>
+</html>

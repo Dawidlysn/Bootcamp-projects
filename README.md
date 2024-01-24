@@ -1,2 +1,2 @@
 # Bootcamp-projects
-Here are my internship tasks from the Testuj.pl Bootcamp.
+Here are my internship tasks from the TestArmy Bootcamp

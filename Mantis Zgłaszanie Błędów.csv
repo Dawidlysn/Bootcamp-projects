@@ -1,0 +1,11 @@
+﻿Identyfikator,Projekt,Zgłaszający,Przypisany do,Priorytet,Ważność,Powtarzalność,Wersja produktu,Kategoria,Data zgłoszenia,System operacyjny,Wersja systemu,Platforma,Widoczność,Aktualizacja,Temat,Status,Rozwiązanie,Poprawione w wersji
+0003500,lysniewskid,lysniewskid,,pilny,ważny,zawsze,,Funkcjonalny,2024-01-31,Windows 10,21H2,Chrome 120 on,publiczny,2024-01-31,Odnośnik z promocją 50% na stronie głównej nie działa prawidłowo,nowy,otwarty,
+0003499,lysniewskid,lysniewskid,,normalny,ważny,zawsze,,Funkcjonalny,2024-01-31,Windows 10,21H2,Chrome 120 on,publiczny,2024-01-31,Newsletter strony nie odróżnia prawdziwych danych od losowych ciągów znaków,nowy,otwarty,
+0003498,lysniewskid,lysniewskid,,wysoki,ważny,zawsze,,Funkcjonalny,2024-01-31,Windows 10,21H2,Chrome 120 on,publiczny,2024-01-31,"Odnośnik ""edit your password and account details"" wyświetla puste pole",nowy,otwarty,
+0003492,lysniewskid,lysniewskid,,pilny,ważny,losowo,,Funkcjonalny,2024-01-31,Windows 10,21H2,Chrome 120 on,publiczny,2024-01-31,Reset hasła nie weryfikuje poprawnie maila użytkownika,nowy,otwarty,
+0003490,lysniewskid,lysniewskid,,wysoki,ważny,zawsze,,Funkcjonalny,2024-01-31,Windows 10,21H2,Chrome 120 on,publiczny,2024-01-31,"Strona ""Contact "" nie przesyła wiadomości do serwisu",nowy,otwarty,
+0003460,lysniewskid,lysniewskid,,wysoki,ważny,zawsze,,Funkcjonalny,2024-01-26,Windows 10,21H2,Chrome 120 on,publiczny,2024-01-26,Brak możliwości usunięcia produktów z koszyka,nowy,otwarty,
+0003459,lysniewskid,lysniewskid,,pilny,błąd krytyczny,zawsze,,Funkcjonalny,2024-01-25,Windows 10,21H2,Chrome 120 on ,publiczny,2024-01-25,"Przycisk ""View Cart"" przy robieniu zakupów nie przenosi do koszyka",nowy,otwarty,
+0003458,lysniewskid,lysniewskid,,normalny,ważny,zawsze,,Funkcjonalny,2024-01-25,Windows 10,21H2,Chrome 120 on ,publiczny,2024-01-25,Brak niektórych  zdjęć na stronie głównej,nowy,otwarty,
+0003457,lysniewskid,lysniewskid,,natychmiastowy,błąd krytyczny,zawsze,,Funkcjonalny,2024-01-25,Windows 10,21H2,Chrome 120 on ,publiczny,2024-01-25,Rejestracja klienta nie odróżnia istniejącego maila od nieprawdziwego,nowy,otwarty,
+0003456,lysniewskid,lysniewskid,,natychmiastowy,błąd krytyczny,zawsze,,Funkcjonalny,2024-01-25,Windows 10,21H2,Chrome 120 on ,publiczny,2024-01-25,"""Shop now"" na stronie głównej wysypuje stronę",nowy,otwarty,
